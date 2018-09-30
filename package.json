@@ -4,8 +4,9 @@
   "description": "A template for react projects that uses webpack for bundling and building",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
-    "build": "webpack --mode production"
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production",
+    "start": "node app/index.js"
   },
   "author": "Ermir Suldashi",
   "license": "MIT",
@@ -22,8 +23,12 @@
     "babel-loader": "^8.0.4"
   },
   "dependencies": {
+    "express": "^4.16.3",
     "react": "^16.5.2",
+    "react-auto-bind": "^0.4.2",
     "react-dom": "^16.5.2",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
   }
 }
