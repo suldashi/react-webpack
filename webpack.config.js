@@ -19,5 +19,9 @@ module.exports = {
     },
     devServer: {
       contentBase: './public/js'
+    },
+    watch: true,
+    watchOptions: {
+      ignored: ["node_modules","app","public"]
     }
   };
