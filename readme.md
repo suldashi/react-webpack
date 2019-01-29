@@ -14,6 +14,6 @@ Clone the repository and run `npm install` to install the dependencies. After, r
 The following tasks are implemented:
 * `npm run dev` - the main and default task that takes the *react.js* code and outputs a non-minifed JavaScript bundle file.
 * `npm run prod` - when you are ready to deploy, this runs the same code as `npm run dev`, only it minifies it at the end and applies the `production` environment.
-* `watch` - TODO.
+* `npm run watch` - watches for changes in the jsx and js files and triggers compilation when a change is detected. The compilation is dev mode.
 
 License: MIT
